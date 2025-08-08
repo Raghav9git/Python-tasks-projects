@@ -12,5 +12,6 @@ else:
     print("Your Fibonacci sequence = ")
     while counting < Fn:      # prints till the counting is just less than Fn
         print(i)
-        i,j = j,i+j           # touple assignment - i becomes currnt value of  j 
-        counting += 1                           # - j becomes current value of i+j
+        i,j = j,i+j           # touple assignment - i becomes currnt value of  j & j becomes current value of i+j
+        counting += 1         # += helps to keep going further by count of 1
+
